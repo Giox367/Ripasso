@@ -1,0 +1,1 @@
+const cardIcon = "data-disegnocarta";

@@ -1,0 +1,37 @@
+#container {
+  width: 650px;
+  margin: 0 auto;
+  background-color: rgba(22, 104, 228, 0.925);
+}
+#cardsGrid {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 80px;
+
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.icon {
+  margin: 8px;
+  padding: 3px;
+  border: 1px solid red;
+  border-radius: 20px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.card {
+  width: 12%;
+  height: 113px;
+  margin: 8px;
+  padding: 3px;
+  border: 1px solid red;
+  border-radius: 20px;
+  cursor: pointer;
+  content: none;
+}
+.card::content {
+  content: none;
+}
